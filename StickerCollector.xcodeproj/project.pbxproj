@@ -13,6 +13,8 @@
 		9F8222211E340E82007FF9C3 /* StickerCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F82221F1E340E82007FF9C3 /* StickerCollector.xcdatamodeld */; };
 		9F8222231E340E82007FF9C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8222221E340E82007FF9C3 /* Assets.xcassets */; };
 		9F8222261E340E82007FF9C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8222241E340E82007FF9C3 /* LaunchScreen.storyboard */; };
+		9F82222E1E341943007FF9C3 /* GreenduranceLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F82222D1E341943007FF9C3 /* GreenduranceLogo.png */; };
+		9F8222301E341BFB007FF9C3 /* StickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82222F1E341BFA007FF9C3 /* StickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9F8222221E340E82007FF9C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F8222251E340E82007FF9C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F8222271E340E82007FF9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F82222D1E341943007FF9C3 /* GreenduranceLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenduranceLogo.png; sourceTree = "<group>"; };
+		9F82222F1E341BFA007FF9C3 /* StickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		9F8222171E340E82007FF9C3 /* StickerCollector */ = {
 			isa = PBXGroup;
 			children = (
+				9F82222D1E341943007FF9C3 /* GreenduranceLogo.png */,
 				9F8222181E340E82007FF9C3 /* AppDelegate.swift */,
 				9F82221A1E340E82007FF9C3 /* ViewController.swift */,
+				9F82222F1E341BFA007FF9C3 /* StickerViewController.swift */,
 				9F82221C1E340E82007FF9C3 /* Main.storyboard */,
 				9F8222221E340E82007FF9C3 /* Assets.xcassets */,
 				9F8222241E340E82007FF9C3 /* LaunchScreen.storyboard */,
@@ -129,6 +135,7 @@
 				9F8222261E340E82007FF9C3 /* LaunchScreen.storyboard in Resources */,
 				9F8222231E340E82007FF9C3 /* Assets.xcassets in Resources */,
 				9F82221E1E340E82007FF9C3 /* Main.storyboard in Resources */,
+				9F82222E1E341943007FF9C3 /* GreenduranceLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 			files = (
 				9F82221B1E340E82007FF9C3 /* ViewController.swift in Sources */,
 				9F8222211E340E82007FF9C3 /* StickerCollector.xcdatamodeld in Sources */,
+				9F8222301E341BFB007FF9C3 /* StickerViewController.swift in Sources */,
 				9F8222191E340E82007FF9C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
