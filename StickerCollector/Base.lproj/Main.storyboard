@@ -38,7 +38,7 @@
                     <navigationItem key="navigationItem" id="1WZ-pW-VgG">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="uJE-KS-qsc">
                             <connections>
-                                <segue destination="Syv-Pg-zXz" kind="show" id="CTL-AS-cJy"/>
+                                <segue destination="Syv-Pg-zXz" kind="show" identifier="stickerSegue" id="CTL-AS-cJy"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -85,14 +85,24 @@
                                     <action selector="addTapped:" destination="Syv-Pg-zXz" eventType="touchUpInside" id="jYT-rS-gbD"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pS-7k-VJL">
+                                <rect key="frame" x="165" y="344" width="45" height="30"/>
+                                <state key="normal" title="Delete"/>
+                                <connections>
+                                    <action selector="addTapped:" destination="Syv-Pg-zXz" eventType="touchUpInside" id="qxW-Y4-o5x"/>
+                                    <action selector="deleteTapped:" destination="Syv-Pg-zXz" eventType="touchUpInside" id="iaT-Pm-OWb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="uao-jv-vQ4" firstAttribute="centerX" secondItem="5h3-vO-uGX" secondAttribute="centerX" id="5qT-9G-wY2"/>
+                            <constraint firstItem="4pS-7k-VJL" firstAttribute="top" secondItem="3Ge-Gt-co2" secondAttribute="bottom" constant="10" id="FCI-q4-wbu"/>
                             <constraint firstItem="Zci-bH-4dd" firstAttribute="top" secondItem="OO3-NF-xSj" secondAttribute="bottom" constant="20" id="FaL-d6-rKD"/>
                             <constraint firstItem="3Ge-Gt-co2" firstAttribute="centerX" secondItem="5h3-vO-uGX" secondAttribute="centerX" id="ONR-Y1-GyC"/>
                             <constraint firstItem="uao-jv-vQ4" firstAttribute="top" secondItem="Zci-bH-4dd" secondAttribute="bottom" constant="20" id="SBT-mB-39l"/>
                             <constraint firstItem="Zci-bH-4dd" firstAttribute="centerX" secondItem="5h3-vO-uGX" secondAttribute="centerX" id="Yac-7b-L4k"/>
+                            <constraint firstItem="4pS-7k-VJL" firstAttribute="centerX" secondItem="5h3-vO-uGX" secondAttribute="centerX" id="mjp-Bz-H9m"/>
                             <constraint firstItem="3Ge-Gt-co2" firstAttribute="top" secondItem="uao-jv-vQ4" secondAttribute="bottom" constant="20" id="tTo-iw-eb6"/>
                         </constraints>
                     </view>
@@ -111,6 +121,8 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="addUpdateButton" destination="3Ge-Gt-co2" id="aAy-8y-l8t"/>
+                        <outlet property="deleteButton" destination="4pS-7k-VJL" id="pJZ-c7-ucM"/>
                         <outlet property="stickerImageView" destination="Zci-bH-4dd" id="IAp-jU-GEM"/>
                         <outlet property="titleTextField" destination="uao-jv-vQ4" id="SMI-dl-v8H"/>
                     </connections>

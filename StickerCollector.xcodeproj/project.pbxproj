@@ -105,6 +105,7 @@
 				TargetAttributes = {
 					9F8222141E340E81007FF9C3 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2KKVW7DCV7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -272,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2KKVW7DCV7;
 				INFOPLIST_FILE = StickerCollector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pujitatipnis.StickerCollector;
@@ -284,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2KKVW7DCV7;
 				INFOPLIST_FILE = StickerCollector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pujitatipnis.StickerCollector;
@@ -311,6 +314,7 @@
 				9F82222C1E340E82007FF9C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

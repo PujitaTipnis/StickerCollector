@@ -46,5 +46,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let sticker = stickers[indexPath.row]
+        performSegue(withIdentifier: "stickerSegue", sender: sticker)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextVC = segue.destination as! StickerViewController
+        nextVC.sticker = sender as? Sticker
+    }
 }
 
